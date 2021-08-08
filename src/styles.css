@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: conic-gradient(
+    from 135deg at 50% 50%,
+    rgba(255, 204, 236, 1) 0%,
+    rgba(255, 156, 133, 1) 25%,
+    rgba(255, 203, 143, 1) 50%,
+    rgba(149, 148, 255, 1) 75%,
+    rgba(255, 204, 236, 1) 100%
+  );
+}
